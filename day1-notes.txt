@@ -23,5 +23,13 @@ rm configs/file1.txt          # Remove file inside
 rmdir configs                 # Now remove folder
 -------------------------------------------------------------------------
 
+Day 2
+-----------------------------
+cat day1-notes.txt
+less day1-notes.txt
+head day1-notes.txt
+tail day1-notes.txt
+
+-----------------------------
 Date: 22-05-2025
 
