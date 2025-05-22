@@ -1,0 +1,27 @@
+Linux DevOps Practice - Day 1
+-----------------------------
+Commands used: pwd, cd, touch, cp, mv, rm, rmdir, ls
+
+Learn how to:
+- Navigate Linus Filesystem
+- Create, rename, delete files/folders
+- Use basic Shell commands
+
+------------------------------------------------------------------------
+mkdir devops_practice         # Create a folder
+cd devops_practice
+
+touch file1.txt               # Create a file
+mkdir configs                 # Create a subfolder
+
+cp file1.txt configs/         # Copy file into subfolder
+mv file1.txt renamed.txt      # Rename file
+rm renamed.txt                # Delete file
+rmdir configs                 # Try removing (will fail if not empty)
+
+rm configs/file1.txt          # Remove file inside
+rmdir configs                 # Now remove folder
+-------------------------------------------------------------------------
+
+Date: 22-05-2025
+
